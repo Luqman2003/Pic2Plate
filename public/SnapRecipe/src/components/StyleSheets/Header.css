@@ -1,0 +1,28 @@
+h1 {
+  color: white;
+}
+
+.border {
+  border-color: blue;
+}
+
+p {
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px;
+}
+
+.image {
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.button-div {
+  display: flex;
+  align-items: center;
+}
