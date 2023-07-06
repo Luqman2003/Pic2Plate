@@ -1,4 +1,4 @@
-h1 {
+.title-tag {
   color: white;
 }
 
@@ -12,17 +12,38 @@ p {
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   padding: 100px;
+  height: 100vh;
 }
 
 .image {
-  border-radius: 25px;
-  padding: 20px;
+  width: 500px;
+  border: 2px solid #FF0000
 }
 
 .button-div {
   display: flex;
   align-items: center;
+}
+
+.typewriter-container {
+  display: inline-block;
+}
+
+.typing-tag {
+  border-right: 2px solid;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s, cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50% { border-color: transparent }
+}
+
+@keyframes typing {
+  from {width: 0}
 }

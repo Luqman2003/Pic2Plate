@@ -12,14 +12,18 @@
   "dependencies": {
     "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
+    "radium": "^0.26.2",
     "react": "^16.14.0",
     "react-awesome-reveal": "^4.2.5",
-    "react-dom": "^16.14.0"
+    "react-dom": "^16.14.0",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@types/radium": "^0.24.4",
     "@types/react": "^18.0.37",
     "@types/react-dom": "^18.0.11",
+    "@types/react-vertical-timeline-component": "^3.3.3",
     "@typescript-eslint/eslint-plugin": "^5.59.0",
     "@typescript-eslint/parser": "^5.59.0",
     "@vitejs/plugin-react": "^4.0.0",

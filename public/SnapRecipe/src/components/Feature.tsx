@@ -13,7 +13,7 @@ const Feature = ({ description, title, imageSrc }: Props) => {
     <div className="indiv hidden">
       <div className="img-title">
         <img className="puzzle" src={imageSrc}></img>
-        <h4>{title}</h4>
+        <h4 className="feature-title">{title}</h4>
       </div>
       <p>{description}</p>
     </div>

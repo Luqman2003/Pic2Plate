@@ -1,17 +1,17 @@
-.container {
+.features-content {
+  padding: 100px;
+  height: 100vh;
   display: flex;
-  position: relative;
-  height: 300px; /* Adjust this to fit your card height */
-  border: 2px solid #FF0000
-}
-
-.features-title {
-  text-align: center;
-}
-
-.more-descriptions {
-  padding: 15px;
-  display: flex;
-  justify-content: center; /* Centers horizontally if the flex direction is row */
+  justify-content: space-evenly;
   align-items: center;
+  /* width: 50%; You can adjust this */
+  /* margin: 0 auto;  */
+}
+
+.features-list {
+  border: 2px solid #FF0000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%; /* You can adjust this */
 }

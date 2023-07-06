@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Logo from "./components/Logo";
 import FeaturesContainer from "./components/FeaturesContainer";
+import Timeline from "./components/Timeline";
+
 import "./App.css";
 
 function App() {
@@ -9,6 +11,7 @@ function App() {
       <Logo></Logo>
       <Header></Header>
       <FeaturesContainer></FeaturesContainer>
+      <Timeline></Timeline>
     </div>
   );
 }

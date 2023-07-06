@@ -4,14 +4,14 @@
   padding: 30px;
   transition: 0.4s ease-out;
   position: relative;
-  height: 280px; /* Adjust this to fit your card content */
+  height: 280px;
   background-color: #17141d;
   border-radius: 10px;
   box-shadow: -1rem 0 3rem #000;
 }
 
 .indiv:not(:first-child) {
-  margin-left: -50px; /* Adjust this to get your preferred overlap */
+  margin-left: -50px;
 }
 
 .indiv:hover {
@@ -20,11 +20,10 @@
 }
 
 .indiv:hover ~ .indiv {
-  transform: translateX(50px); /* Moves the cards to the right */
-  transition: 0.4s ease-out;
+  transform: translateX(50px);
 }
 
-h4 {
+.feature-title {
   color: white
 }
 

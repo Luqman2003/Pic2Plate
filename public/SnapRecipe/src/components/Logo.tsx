@@ -3,7 +3,7 @@ import "./StyleSheets/Logo.css";
 const Logo = () => {
   return (
     <div className="logo">
-      <h2>Pic2Plate</h2>
+      <h1 className="header-title">Pic2Plate</h1>
     </div>
   );
 };

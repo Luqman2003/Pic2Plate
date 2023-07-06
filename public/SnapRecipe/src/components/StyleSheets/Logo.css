@@ -1,7 +1,11 @@
 .logo {
-  padding: 15px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-h2 {
+.header-title {
   color: white;
 }
