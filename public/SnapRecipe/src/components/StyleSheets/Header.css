@@ -4,6 +4,9 @@
 
 .border {
   border-color: blue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 p {
@@ -16,6 +19,8 @@ p {
   align-items: center;
   padding: 100px;
   height: 100vh;
+  border: 2px solid #FF0000;
+  flex-wrap: wrap;
 }
 
 .image {

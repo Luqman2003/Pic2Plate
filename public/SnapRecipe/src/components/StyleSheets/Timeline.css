@@ -1,0 +1,32 @@
+.timeline-container {
+  border: 2px solid #FF0000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 200vh
+}
+
+.vertical-timeline-element-title, .vertical-timeline-element-subtitle {
+  color: white;
+}
+
+@media (max-width: 600px) {
+  .timeline-container {
+    height: 300vh;
+  }
+}
+
+/* For screens between 600px and 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  .timeline-container {
+    height: 250vh;
+  }
+}
+
+/* For screens larger than 900px */
+@media (min-width: 900px) {
+  .timeline-container {
+    height: 200vh;
+  }
+}

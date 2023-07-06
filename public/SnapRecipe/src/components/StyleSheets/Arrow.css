@@ -34,6 +34,16 @@
   }
 }
 .down-arrow {
-  /* // rest of the styles from above */
   animation: jumpInfinite 1.5s infinite;
+}
+
+.fade {
+  animation: fadeOut 2s forwards;
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

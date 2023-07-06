@@ -22,7 +22,7 @@ const Header = () => {
               <p></p>
             </div>
           </div>
-          <Slide direction="right">
+          <Slide direction="right" triggerOnce={true}>
             <div className="border">
               <img src={myImage} alt="test_image" className="image" />
             </div>

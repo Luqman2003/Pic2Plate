@@ -2,7 +2,7 @@ import "./StyleSheets/Feature.css";
 import Fade from "react-awesome-reveal";
 
 interface Props {
-  featureNum: number;
+  featureNum?: number;
   title: string;
   description: string;
   imageSrc: string;

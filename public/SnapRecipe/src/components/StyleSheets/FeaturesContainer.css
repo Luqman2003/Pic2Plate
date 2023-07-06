@@ -1,17 +1,29 @@
-.features-content {
-  padding: 100px;
+.feature-container {
   height: 100vh;
+  border: 2px solid #FF0000;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  /* width: 50%; You can adjust this */
-  /* margin: 0 auto;  */
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
-.features-list {
-  border: 2px solid #FF0000;
+.feature-cards {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
-  width: 100%; /* You can adjust this */
 }
+
+.feature-section-title {
+  color: white;
+}
+
+.feature-title-container {
+  border: 2px solid #FF0000;
+}
+
+/* @media (max-width: 569px) {
+  .rocket-image {
+    width: 50%
+  }
+} */
