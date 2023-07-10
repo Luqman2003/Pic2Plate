@@ -1,30 +1,28 @@
 let timelineElements = [
   {
     id: 1,
-    title: "Frontend Developer",
-    location: "Dragontail, Ascana",
+    title: "Data collection",
+    location: "Lead: Luqman Shibly",
     description:
-      "Converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data.",
-    buttonText: "View Frontend Projects",
-    date: "August 2016 - present",
-    icon: "work"
+      "In this phase, we embarked on a mission to identify the ideal dataset for our model. We scoured numerous resources to find a dataset that was comprehensive, diverse, and relevant to our task. After thorough research, we chose the Food-101 dataset. This decision was driven by its extensive collection of food images across various categories, making it the perfect fit for our model's training needs.",
+    date: "2 days",
+    icon: "Developer"
   },
   {
     id: 2,
-    title: "Backend Developer",
-    location: "Skystead, Craonia",
+    title: "Research pre-trained image classification models",
+    location: "Lead: Luqman Shibly",
     description:
-      "Working hand-in-hand with front-end developers by providing the outward facing web application elements server-side logic. Creating the logic to make the web app function properly, and accomplishing this through the use of server-side scripting languages.",
-    buttonText: "View Backend Projects",
-    date: "June 2013 - August 2016",
-    icon: "work"
+      "In this stage, we conducted extensive research on various pre-trained models to determine the best fit for our needs. We analyzed the performance, computational efficiency, and compatibility of several models with our task. After rigorous comparison and testing, the EfficientNetB0 model emerged as the most suitable, offering impressive accuracy and reduced training time, aligning seamlessly with our project's requirements.",
+    date: "2 days",
+    icon: "Developer"
   },
   {
     id: 3,
-    title: "Quality Assurance Engineer",
-    location: "South Warren, Geshington",
+    title: "Develop ML model",
+    location: "Lead: Luqman Shibly",
     description:
-      "Assessing the quality of specifications and technical design documents in order to ensure timely, relevant and meaningful feedback.",
+      "In this phase, we developed a Convolutional Neural Network (CNN) model for image recognition. Trained on the comprehensive Food-101 dataset, we used the technique of transfer learning with the pre-trained EfficientNetB0 model from Google AI.",
     buttonText: "Company Website",
     date: "September 2011 - June 2013",
     icon: "work"
