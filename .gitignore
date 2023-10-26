@@ -1,4 +1,4 @@
 /models/images/
 /.venv
-ingredients_data
-node_modules
+/ingredients_data
+/node_modules
